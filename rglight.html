@@ -7,7 +7,8 @@
     <style>
         body {
             background-image: url('engineering.jpg');
-            background-size: cover;
+            background-size: 100%;
+            background-position: center;
             background-repeat: no-repeat;
             background-attachment: fixed;
             font-family: Arial, sans-serif;
@@ -15,11 +16,16 @@
             padding: 0;
         }
 
+        .header-container {
+            background-color: rgba(0, 0, 0, 0.5); /* Translucent black background */
+            padding: 20px; /* Adjust padding as needed */
+        }
+
         .container {
             width: 80%;
             margin: auto;
             padding: 20px;
-            color: #FFF;
+            color: #f3ff11;
         }
 
         h1 {
@@ -30,24 +36,39 @@
             margin-bottom: 10px;
         }
 
+        .video-container {
+            width: fit-content; /* Adjusted width to fit the video content */
+            margin: auto; /* Center the container */
+            border: 2px solid #fff; /* Add border to the video container */
+            border-radius: 10px; /* Add border radius for a rounded appearance */
+            overflow: hidden; /* Ensure the video stays within the container */
+        }
+
         iframe {
             width: 100%; /* Adjusted width to fit the container */
+            height: 400px; /* Set a fixed height for the video */
         }
     </style>
 </head>
 <body>
+    <div class="header-container">
+        <div class="container">
+            <h1>Pivoting Head and Swinging Armature Project</h1>
+            <p>This project involved integrating two DC motors and a LIDAR radar detector with a Raspberry Pi 4 to create a pivoting head with the LIDAR detector and a swinging armature or "weapon". The purpose of this system was to disqualify contestants if they were still moving when the "head" turned around, facing the playing field, indicating a red light.</p>
+            <p>I undertook this project alone, from conception to implementation. The main components and steps involved in this project included:</p>
+            <ul>
+                <li>Selection and integration of two DC motors and a LIDAR radar detector with a Raspberry Pi 4.</li>
+                <li>Designing and constructing the pivoting head and swinging armature mechanism.</li>
+                <li>Programming the Raspberry Pi 4 to control the motors and interpret data from the LIDAR detector.</li>
+                <li>Testing and refining the system to ensure accurate and reliable operation.</li>
+            </ul>
+            <p>For a visual demonstration of the project, please watch the video below:</p>
+        </div>
+    </div>
     <div class="container">
-        <h1>Pivoting Head and Swinging Armature Project</h1>
-        <p>This project involved integrating two DC motors and a LIDAR radar detector with a Raspberry Pi 4 to create a pivoting head with the LIDAR detector and a swinging armature or "weapon". The purpose of this system was to disqualify contestants if they were still moving when the "head" turned around, facing the playing field, indicating a red light.</p>
-        <p>I undertook this project alone, from conception to implementation. The main components and steps involved in this project included:</p>
-        <ul>
-            <li>Selection and integration of two DC motors and a LIDAR radar detector with a Raspberry Pi 4.</li>
-            <li>Designing and constructing the pivoting head and swinging armature mechanism.</li>
-            <li>Programming the Raspberry Pi 4 to control the motors and interpret data from the LIDAR detector.</li>
-            <li>Testing and refining the system to ensure accurate and reliable operation.</li>
-        </ul>
-        <p>For a visual demonstration of the project, please watch the video below:</p>
-        <iframe src="https://youtube.com/shorts/RPFhYtVhMg0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video-container"> <!-- Wrap the iframe in a container div -->
+            <iframe src="https://youtube.com/embed/RPFhYtVhMg0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
 </body>
 </html>

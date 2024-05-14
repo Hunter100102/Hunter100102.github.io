@@ -30,8 +30,16 @@
             margin-bottom: 10px;
         }
 
+        .video-container {
+            width: fit-content; /* Adjusted width to fit the video content */
+            margin: auto; /* Center the container */
+            border: 2px solid #FFF; /* Add border to the video container */
+            border-radius: 10px; /* Add border radius for a rounded appearance */
+            overflow: hidden; /* Ensure the video stays within the container */
+        }
+
         iframe {
-            width: 100%;
+            width: 100%; /* Adjusted width to fit the container */
             height: 400px;
         }
     </style>
@@ -47,7 +55,9 @@
             <li>Deployed the trained model to classify handwritten digits accurately.</li>
         </ol>
         <p>For a detailed explanation of the project and its implementation, please watch the video below:</p>
-        <iframe src="https://www.youtube.com/embed/Liz5RIvgcDk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video-container"> <!-- Wrap the iframe in a container div -->
+            <iframe src="https://www.youtube.com/embed/Liz5RIvgcDk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
     </div>
 </body>
 </html>
