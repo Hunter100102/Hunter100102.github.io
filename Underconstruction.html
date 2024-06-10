@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Under Construction</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            text-align: center;
+            animation: fadeIn 2s;
+        }
+
+        .container h1 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            color: #ffcc00;
+        }
+
+        .container p {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .container img {
+            width: 300px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .progress-bar {
+            width: 80%;
+            background-color: #555;
+            border-radius: 5px;
+            overflow: hidden;
+            margin: 0 auto;
+            height: 25px;
+        }
+
+        .progress-bar-inner {
+            height: 100%;
+            width: 0;
+            background-color: #ffcc00;
+            animation: progress 5s infinite;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes progress {
+            0% { width: 0; }
+            100% { width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Under Construction</h1>
+        <img src="https://www.pngkey.com/png/full/349-3490812_under-construction-comments-under-construction.png" alt="Under Construction">
+        <p>We're working hard to bring you something amazing! Stay tuned.</p>
+        <div class="progress-bar">
+            <div class="progress-bar-inner"></div>
+        </div>
+    </div>
+</body>
+</html>
