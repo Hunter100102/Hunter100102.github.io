@@ -2,16 +2,16 @@ William Cody Hunter's GitHub Portfolio
 About Me
 Hi! I'm William Cody Hunter, a passionate developer with a keen interest in exploring new technologies and expanding my skill set. I enjoy tackling diverse projects, ranging from machine learning to automation software and game development. I'm currently focused on enhancing my expertise using Visual Studio and GitHub, and I'm always looking for innovative solutions to challenging problems.
 
-##Projects
+Projects
 1. MNIST Digit Image Recognition
 Description: This project uses convolutional neural networks (CNNs) to recognize handwritten digits from the MNIST dataset. It demonstrates my skills in deep learning and image recognition.
 
-###Repository: MNIST Digit Image Recognition
+Repository: MNIST Digit Image Recognition
 
 2. QuickBase Automation Software
 Description: This automation tool creates purchase orders (POs), invoices, and line items in QuickBase through API calls. It showcases my ability to streamline business processes and integrate systems via APIs.
 
-###Repository: QuickBase Automation Software
+Repository: QuickBase Automation Software
 
 3. Red/Green Light Game Simulator (Squid Game)
 Description: Inspired by the movie "Squid Game," this project is a simulator for the Red/Green light game. It features engaging graphics and interactive gameplay, demonstrating my skills in game development.
