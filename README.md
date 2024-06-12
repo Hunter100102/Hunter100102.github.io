@@ -16,8 +16,6 @@ Repository: QuickBase Automation Software
 3. Red/Green Light Game Simulator (Squid Game)
 Description: Inspired by the movie "Squid Game," this project is a simulator for the Red/Green light game. It features engaging graphics and interactive gameplay, demonstrating my skills in game development.
 
-Repository: Red/Green Light Game Simulator
-
 Installation Instructions
 To clone and run any of these projects locally, follow these steps:
 
